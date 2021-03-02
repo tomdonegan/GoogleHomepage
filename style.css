@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: rgb(39, 38, 38);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 6px;
+    height: 60px;
+    color: inherit;
+}
+
+.nav-links {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.first-link {
+    margin-left: 15px;
+}
+
+.section-two {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.personal-links {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.last-link {
+    padding-right: 15px;
+}
+
+.profile-image {
+    border-radius: 50%;
+}
