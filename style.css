@@ -8,6 +8,8 @@ body {
     font-size: 14px;
     font-family: arial, sans-serif;
     color: rgb(39, 38, 38);
+    height: 100vh;
+    overflow: hidden;
 }
 
 header {
@@ -53,4 +55,20 @@ a {
 
 .profile-image {
     border-radius: 50%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100vw;
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    bottom: 0;
 }
