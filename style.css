@@ -152,6 +152,7 @@ footer {
 
 footer > ul {
   display: flex;
+  padding: 0;
 }
 
 @media (max-width: 650px) {
