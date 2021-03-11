@@ -1,1 +1,1 @@
-# This is a re-creation of the Google homepage
+# A visual recreation of the google home page.
